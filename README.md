@@ -27,3 +27,4 @@ blockchains.
 ```
 mpicc -o mpi MPI.c -lssl -lcrypto && ./mpi
 mpiexec -n 2 ./mpi
+//Here 2 is the number of processes that needs to be executed
