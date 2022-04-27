@@ -19,3 +19,10 @@ For the sake of simplicity, the NONCE is any hash divisible by
 800000. To calculate the hash, SHA256 algorithm is used, which
 is the best hashing algorithm known and is extensively used in
 blockchains.
+
+
+## Compiling commands
+
+### MPI
+`mpicc -o mpi MPI.c -lssl -lcrypto && ./mpi
+mpiexec -n 2 ./mpi`
