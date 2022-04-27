@@ -24,5 +24,6 @@ blockchains.
 ## Compiling commands
 
 ### MPI
-```mpicc -o mpi MPI.c -lssl -lcrypto && ./mpi```
-```mpiexec -n 2 ./mpi```
+```mpicc -o mpi MPI.c -lssl -lcrypto && ./mpi
+
+```mpiexec -n 2 ./mpi
